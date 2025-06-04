@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surya - Powersport Product Data</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="text-gray-800">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-6 bg-white shadow">
+        <button class="text-xl font-bold text-blue-600">surya</button>
+        <nav class="space-x-6">
+            <a href="#" class="text-gray-600 hover:text-orange-600">Products</a>
+            <a href="#" class="text-gray-600 hover:text-orange-600">Industry</a>
+            <a href="#" class="text-gray-600 hover:text-orange-600">Data</a>
+            <a href="#" class="text-gray-600 hover:text-orange-600">About Us</a>
+        </nav>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded">Get Started</button>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-12 px-6">
+        <h1 class="text-4xl font-bold">The Leading <span class="text-orange-600">Powersport’s Product</span> Data
+            Solution</h1>
+        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">surya simplifies accessing Powersport products data for
+            manufacturers and wholesalers, enabling seamless sharing with dealers and resellers.</p>
+        <img src="C:\Users\surya prakash\Downloads\car model.jpg" alt="UTV image"
+            class="mx-auto mt-6 rounded-xl shadow-lg w-full max-w-3xl">
+    </section>
+
+    <!-- Data Formats -->
+    <section class="py-10 px-6 bg-gray-50 text-center">
+        <h2 class="text-2xl font-semibold mb-4">Available in Multiple Data Delivery Formats</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div>
+                <h3 class="font-bold">API</h3>
+                <img src="C:\Users\surya prakash\Downloads\logo.avif" alt="UTV image">
+                <p>Developer-friendly API access to product data in real-time.</p>
+            </div>
+            <div>
+                <h3 class="font-bold">Database</h3>
+                <img src="c:\Users\surya prakash\Downloads\data.jpg" alt="UTV image">
+                <p>Structured formats like MySQL, CSV, Excel for full catalogs.</p>
+            </div>
+            <div>
+                <h3 class="font-bold">Integrations</h3>
+                <img src="c:\Users\surya prakash\Downloads\logo 3.jpg" alt="UTV image">
+                <p>Connect with Shopify, Magento, WooCommerce, etc.</p>
+            </div>
+            <div>
+                <h3 class="font-bold">Web Access</h3>
+                <img src="c:\Users\surya prakash\Downloads\logo 3.jpg" alt="UTV image">
+                <p>Web UI for quick browsing and export options.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-12 px-6">
+        <h2 class="text-2xl font-semibold text-center mb-6">We Provide a Robust Set of Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-4 shadow rounded bg-white">
+                <h3 class="font-bold mb-2">Product Details</h3>
+                <img src="c:\Users\surya prakash\Downloads\problem solving.jpg" alt="UTV image">
+                <p>Comprehensive product content including specs, images, and more.</p>
+            </div>
+            <div class="p-4 shadow rounded bg-white">
+                <h3 class="font-bold mb-2">Fitment Data</h3>
+                <img src="c:\Users\surya prakash\Downloads\sales boost.jpg" alt="UTV image">
+                <p>OEM compatibility and fitment verification.</p>
+            </div>
+            <div class="p-4 shadow rounded bg-white">
+                <h3 class="font-bold mb-2">Price and Inventory</h3>
+                <img src="c:\Users\surya prakash\Downloads\management.jpg" alt="UTV image">
+                <p>Real-time pricing and stock updates from manufacturers.</p>
+            </div>
+            <div class="p-4 shadow rounded bg-white">
+                <h3 class="font-bold mb-2">Integrated DMS</h3>
+                <img src="c:\Users\surya prakash\Downloads\dealer.webp" alt="UTV image">
+                <p>Data Management System to streamline catalog operations.</p>
+            </div>
+            <div class="p-4 shadow rounded bg-white">
+                <h3 class="font-bold mb-2">24/7 Support</h3>
+                <img src="c:\Users\surya prakash\Downloads\bike.jpg" alt="UTV image">
+                <p>Live chat, email, and ticketing support options available anytime.</p>
+            </div>
+            <div class="p-4 shadow rounded bg-white">
+                <h3 class="font-bold mb-2">Easy to Use</h3>
+                <img src="c:\Users\surya prakash\Downloads\laptop.jpg" alt="UTV image">
+                <p>Simple UI for anyone to browse and access data efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Form -->
+    <section class="bg-gray-100 py-12 px-6 text-center">
+        <h2 class="text-2xl font-semibold mb-4">Turn Ideas into Reality!</h2>
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            <input type="text" placeholder="Name" class="p-3 rounded border" required>
+            <input type="tel" placeholder="Phone Number" class="p-3 rounded border">
+            <input type="email" placeholder="Email" class="p-3 rounded border" required>
+            <input type="text" placeholder="Industry" class="p-3 rounded border">
+            <input type="text" placeholder="Business Type" class="p-3 rounded border">
+            <button type="submit" class="bg-orange-500 text-white p-3 rounded hover:bg-orange-600">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t py-6 px-6 text-sm text-gray-500">
+        <div class="flex justify-between flex-wrap">
+            <div>
+                <p class="font-bold text-gray-800">surya</p>
+                <p>Powersport product data access for manufacturers and resellers.</p>
+            </div>
+            <div>
+                <p class="font-semibold text-gray-700">About</p>
+                <p>Company</p>
+                <p>Partners</p>
+                <p>Contact</p>
+            </div>
+            <div>
+                <p class="font-semibold text-gray-700">Asset Type</p>
+                <p>Images</p>
+                <p>Fitment</p>
+                <p>Pricing</p>
+            </div>
+            <div>
+                <p class="font-semibold text-gray-700">Solutions</p>
+                <p>Integrations</p>
+                <p>Support</p>
+                <p>API</p>
+            </div>
+        </div>
+        <p class="text-center mt-6">© All rights reserved by surya</p>
+    </footer>
+</body>
+
+</html>
